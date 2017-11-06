@@ -14,6 +14,13 @@
 		E21ED5B51FA48D6F00612C0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21ED5B31FA48D6F00612C0F /* LaunchScreen.storyboard */; };
 		E21ED5C01FA48D6F00612C0F /* PateintMDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED5BF1FA48D6F00612C0F /* PateintMDTestTests.swift */; };
 		E21ED5CB1FA48D7000612C0F /* PateintMDTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED5CA1FA48D7000612C0F /* PateintMDTestUITests.swift */; };
+		E21ED5DA1FA48E1500612C0F /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED5D81FA48E1500612C0F /* UserTableViewCell.swift */; };
+		E21ED5E61FA4917300612C0F /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED5E51FA4917300612C0F /* UserInfo.swift */; };
+		E21ED5E81FA491B300612C0F /* BodyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21ED5E71FA491B300612C0F /* BodyInfo.swift */; };
+		E27B75961FAC699800BE5A9B /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B75931FAC699800BE5A9B /* Address.swift */; };
+		E27B75971FAC699800BE5A9B /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B75941FAC699800BE5A9B /* Company.swift */; };
+		E27B75981FAC699800BE5A9B /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B75951FAC699800BE5A9B /* Geo.swift */; };
+		E27B759A1FAC69AE00BE5A9B /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27B75991FAC69AE00BE5A9B /* Json4Swift_Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		E21ED5C61FA48D7000612C0F /* PateintMDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PateintMDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21ED5CA1FA48D7000612C0F /* PateintMDTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PateintMDTestUITests.swift; sourceTree = "<group>"; };
 		E21ED5CC1FA48D7000612C0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21ED5D81FA48E1500612C0F /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		E21ED5E51FA4917300612C0F /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		E21ED5E71FA491B300612C0F /* BodyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyInfo.swift; sourceTree = "<group>"; };
+		E27B75931FAC699800BE5A9B /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		E27B75941FAC699800BE5A9B /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		E27B75951FAC699800BE5A9B /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geo.swift; sourceTree = "<group>"; };
+		E27B75991FAC69AE00BE5A9B /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Json4Swift_Base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,14 @@
 		E21ED5A91FA48D6F00612C0F /* PateintMDTest */ = {
 			isa = PBXGroup;
 			children = (
+				E21ED5DC1FA490FD00612C0F /* ModelClass */,
 				E21ED5AA1FA48D6F00612C0F /* AppDelegate.swift */,
 				E21ED5AC1FA48D6F00612C0F /* ViewController.swift */,
 				E21ED5AE1FA48D6F00612C0F /* Main.storyboard */,
 				E21ED5B11FA48D6F00612C0F /* Assets.xcassets */,
 				E21ED5B31FA48D6F00612C0F /* LaunchScreen.storyboard */,
 				E21ED5B61FA48D6F00612C0F /* Info.plist */,
+				E21ED5D81FA48E1500612C0F /* UserTableViewCell.swift */,
 			);
 			path = PateintMDTest;
 			sourceTree = "<group>";
@@ -123,6 +139,19 @@
 				E21ED5CC1FA48D7000612C0F /* Info.plist */,
 			);
 			path = PateintMDTestUITests;
+			sourceTree = "<group>";
+		};
+		E21ED5DC1FA490FD00612C0F /* ModelClass */ = {
+			isa = PBXGroup;
+			children = (
+				E21ED5E71FA491B300612C0F /* BodyInfo.swift */,
+				E21ED5E51FA4917300612C0F /* UserInfo.swift */,
+				E27B75931FAC699800BE5A9B /* Address.swift */,
+				E27B75941FAC699800BE5A9B /* Company.swift */,
+				E27B75951FAC699800BE5A9B /* Geo.swift */,
+				E27B75991FAC69AE00BE5A9B /* Json4Swift_Base.swift */,
+			);
+			name = ModelClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27B75961FAC699800BE5A9B /* Address.swift in Sources */,
 				E21ED5AD1FA48D6F00612C0F /* ViewController.swift in Sources */,
+				E27B759A1FAC69AE00BE5A9B /* Json4Swift_Base.swift in Sources */,
+				E21ED5DA1FA48E1500612C0F /* UserTableViewCell.swift in Sources */,
+				E21ED5E81FA491B300612C0F /* BodyInfo.swift in Sources */,
+				E27B75971FAC699800BE5A9B /* Company.swift in Sources */,
+				E21ED5E61FA4917300612C0F /* UserInfo.swift in Sources */,
 				E21ED5AB1FA48D6F00612C0F /* AppDelegate.swift in Sources */,
+				E27B75981FAC699800BE5A9B /* Geo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +541,7 @@
 				E21ED5D11FA48D7000612C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E21ED5D21FA48D7000612C0F /* Build configuration list for PBXNativeTarget "PateintMDTestTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				E21ED5D41FA48D7000612C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E21ED5D51FA48D7000612C0F /* Build configuration list for PBXNativeTarget "PateintMDTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				E21ED5D71FA48D7000612C0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
