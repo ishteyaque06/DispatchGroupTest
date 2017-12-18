@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E21ED5A61FA48D6F00612C0F"
-               BuildableName = "PateintMDTest.app"
-               BlueprintName = "PateintMDTest"
-               ReferencedContainer = "container:PateintMDTest.xcodeproj">
+               BuildableName = "DispatchGroupTest.app"
+               BlueprintName = "DispatchGroupTest"
+               ReferencedContainer = "container:DispatchGroupTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -33,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E21ED5BA1FA48D6F00612C0F"
-               BuildableName = "PateintMDTestTests.xctest"
-               BlueprintName = "PateintMDTestTests"
-               ReferencedContainer = "container:PateintMDTest.xcodeproj">
+               BuildableName = "DispatchGroupTestTests.xctest"
+               BlueprintName = "DispatchGroupTestTests"
+               ReferencedContainer = "container:DispatchGroupTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +44,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E21ED5C51FA48D7000612C0F"
-               BuildableName = "PateintMDTestUITests.xctest"
-               BlueprintName = "PateintMDTestUITests"
-               ReferencedContainer = "container:PateintMDTest.xcodeproj">
+               BuildableName = "DispatchGroupTestUITests.xctest"
+               BlueprintName = "DispatchGroupTestUITests"
+               ReferencedContainer = "container:DispatchGroupTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E21ED5A61FA48D6F00612C0F"
-            BuildableName = "PateintMDTest.app"
-            BlueprintName = "PateintMDTest"
-            ReferencedContainer = "container:PateintMDTest.xcodeproj">
+            BuildableName = "DispatchGroupTest.app"
+            BlueprintName = "DispatchGroupTest"
+            ReferencedContainer = "container:DispatchGroupTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,6 +66,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -76,9 +78,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E21ED5A61FA48D6F00612C0F"
-            BuildableName = "PateintMDTest.app"
-            BlueprintName = "PateintMDTest"
-            ReferencedContainer = "container:PateintMDTest.xcodeproj">
+            BuildableName = "DispatchGroupTest.app"
+            BlueprintName = "DispatchGroupTest"
+            ReferencedContainer = "container:DispatchGroupTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +97,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E21ED5A61FA48D6F00612C0F"
-            BuildableName = "PateintMDTest.app"
-            BlueprintName = "PateintMDTest"
-            ReferencedContainer = "container:PateintMDTest.xcodeproj">
+            BuildableName = "DispatchGroupTest.app"
+            BlueprintName = "DispatchGroupTest"
+            ReferencedContainer = "container:DispatchGroupTest.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
