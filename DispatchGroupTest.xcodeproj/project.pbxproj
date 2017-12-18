@@ -91,9 +91,9 @@
 		E21ED59E1FA48D6E00612C0F = {
 			isa = PBXGroup;
 			children = (
-				E21ED5A91FA48D6F00612C0F /* PateintMDTest */,
-				E21ED5BE1FA48D6F00612C0F /* PateintMDTestTests */,
-				E21ED5C91FA48D7000612C0F /* PateintMDTestUITests */,
+				E21ED5A91FA48D6F00612C0F /* DispatchGroupTest */,
+				E21ED5BE1FA48D6F00612C0F /* DispatchGroupTestTests */,
+				E21ED5C91FA48D7000612C0F /* DispatchGroupUITests */,
 				E21ED5A81FA48D6F00612C0F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E21ED5A91FA48D6F00612C0F /* PateintMDTest */ = {
+		E21ED5A91FA48D6F00612C0F /* DispatchGroupTest */ = {
 			isa = PBXGroup;
 			children = (
 				E21ED5DC1FA490FD00612C0F /* ModelClass */,
@@ -120,24 +120,25 @@
 				E21ED5B61FA48D6F00612C0F /* Info.plist */,
 				E21ED5D81FA48E1500612C0F /* UserTableViewCell.swift */,
 			);
-			path = PateintMDTest;
+			path = DispatchGroupTest;
 			sourceTree = "<group>";
 		};
-		E21ED5BE1FA48D6F00612C0F /* PateintMDTestTests */ = {
+		E21ED5BE1FA48D6F00612C0F /* DispatchGroupTestTests */ = {
 			isa = PBXGroup;
 			children = (
 				E21ED5BF1FA48D6F00612C0F /* PateintMDTestTests.swift */,
 				E21ED5C11FA48D7000612C0F /* Info.plist */,
 			);
-			path = PateintMDTestTests;
+			path = DispatchGroupTestTests;
 			sourceTree = "<group>";
 		};
-		E21ED5C91FA48D7000612C0F /* PateintMDTestUITests */ = {
+		E21ED5C91FA48D7000612C0F /* DispatchGroupUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E21ED5CA1FA48D7000612C0F /* PateintMDTestUITests.swift */,
 				E21ED5CC1FA48D7000612C0F /* Info.plist */,
 			);
+			name = DispatchGroupUITests;
 			path = PateintMDTestUITests;
 			sourceTree = "<group>";
 		};
@@ -448,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PateintMDTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DispatchGroupTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = almsoftsol.PateintMDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,7 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = PateintMDTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DispatchGroupTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = almsoftsol.PateintMDTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
